@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cracking', 'Layershifting', 'Off_platform', 'Stringing', 'Warping']
+
+roboflow:
+  workspace: gundetection-xn8gy
+  project: defect-detection-acarp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gundetection-xn8gy/defect-detection-acarp/dataset/2
